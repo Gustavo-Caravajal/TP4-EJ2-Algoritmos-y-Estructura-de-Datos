@@ -12,16 +12,19 @@ struct empleado{
 	char nombre[topeDato];
 };
 
-struct costosManoObra{
-	float horaFija;
-	float horaExtra;
-};
-
 struct horasTrabajo{
 	float horasFijasTrabajadas;
 	float horasExtraTrabajadas;
 	float sueldo;
 };
+
+
+struct costosManoObra{
+	float horaFija;
+	float horaExtra;
+};
+
+
 
 void seleccion(char eleccion[]);
 void ingresarMes(int& mesAingresar);
