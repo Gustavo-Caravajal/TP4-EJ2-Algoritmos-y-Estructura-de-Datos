@@ -103,7 +103,7 @@ int main()
 				cout<<endl;
 				break;
 			default:
-				cout<<"Elije una opcion correcta."<<endl;
+				cout<<"Elije una opcion correcta!."<<endl;
 				cout<<endl;
 		}
 	}
